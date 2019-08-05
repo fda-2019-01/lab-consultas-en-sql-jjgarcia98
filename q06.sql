@@ -3,5 +3,8 @@
 ## la tabla tbl1 ordenada por fecha (c14) para los 
 ## registros con K0 igual a A
 ## 
-
+SELECT * 
+FROM tbl1 
+WHERE k0 = 'A' 
+ORDER BY c14
 
